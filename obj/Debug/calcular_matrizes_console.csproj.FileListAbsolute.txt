@@ -1,0 +1,8 @@
+C:\Curso\calcular_matrizes_console\calcular_matrizes_console\bin\Debug\calcular_matrizes_console.exe.config
+C:\Curso\calcular_matrizes_console\calcular_matrizes_console\bin\Debug\calcular_matrizes_console.exe
+C:\Curso\calcular_matrizes_console\calcular_matrizes_console\bin\Debug\calcular_matrizes_console.pdb
+C:\Curso\calcular_matrizes_console\calcular_matrizes_console\obj\Debug\calcular_matrizes_console.csproj.AssemblyReference.cache
+C:\Curso\calcular_matrizes_console\calcular_matrizes_console\obj\Debug\calcular_matrizes_console.csproj.SuggestedBindingRedirects.cache
+C:\Curso\calcular_matrizes_console\calcular_matrizes_console\obj\Debug\calcular_matrizes_console.csproj.CoreCompileInputs.cache
+C:\Curso\calcular_matrizes_console\calcular_matrizes_console\obj\Debug\calcular_matrizes_console.exe
+C:\Curso\calcular_matrizes_console\calcular_matrizes_console\obj\Debug\calcular_matrizes_console.pdb
