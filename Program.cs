@@ -22,29 +22,93 @@ namespace calcular_matrizes_console
 
             #region definindo as matrizes #1
 
-            m1[0, 0] = int.Parse(Console.ReadLine());
-            m1[0, 1] = int.Parse(Console.ReadLine());
-            m1[0, 2] = int.Parse(Console.ReadLine());
-            m1[1, 0] = int.Parse(Console.ReadLine());
-            m1[1, 1] = int.Parse(Console.ReadLine());
-            m1[1, 2] = int.Parse(Console.ReadLine());
+            Console.WriteLine("DEFINIR MATRIZ #1");
+
+            Console.WriteLine("[x] [] []");
+                Console.WriteLine("[] [] []");
+                    Console.WriteLine("Escolha o número:");
+                        m1[0, 0] = int.Parse(Console.ReadLine());
+            
+            Console.WriteLine("[] [x] []");
+                Console.WriteLine("[] [] []");
+                    Console.WriteLine("Escolha o número:");
+                        m1[0, 1] = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("[] [] [x]");
+                Console.WriteLine("[] [] []");
+                    Console.WriteLine("Escolha o número:");
+                        m1[0, 2] = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("[] [] []");
+                Console.WriteLine("[x] [] []");
+                    Console.WriteLine("Escolha o número:");
+                        m1[1, 0] = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("[] [] []");
+                Console.WriteLine("[] [x] []");
+                    Console.WriteLine("Escolha o número:");
+                        m1[1, 1] = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("[] [] []");
+                Console.WriteLine("[] [] [x]");
+                    Console.WriteLine("Escolha o número:");
+                        m1[1, 2] = int.Parse(Console.ReadLine());
 
             #endregion
 
             #region definindo as matrizes #2
 
-            m2[0, 0] = int.Parse(Console.ReadLine());
-            m2[0, 1] = int.Parse(Console.ReadLine());
-            m2[1, 0] = int.Parse(Console.ReadLine());
-            m2[1, 1] = int.Parse(Console.ReadLine());
-            m2[2, 0] = int.Parse(Console.ReadLine());
-            m2[2, 1] = int.Parse(Console.ReadLine());
+            Console.WriteLine("DEFINIR MATRIZ #2");
+
+            Console.WriteLine("[x] []");
+                Console.WriteLine("[] []");
+                    Console.WriteLine("[] []");
+                        Console.WriteLine("Escolha o número:");
+                            m2[0, 0] = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("[] [x]");
+                Console.WriteLine("[] []");
+                    Console.WriteLine("[] []");
+                        Console.WriteLine("Escolha o número:");
+                            m2[0, 1] = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("[] []");
+                Console.WriteLine("[x] []");
+                    Console.WriteLine("[] []");
+                        Console.WriteLine("Escolha o número:");
+                            m2[1, 0] = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("[] []");
+                Console.WriteLine("[] [x]");
+                    Console.WriteLine("[] []");
+                        Console.WriteLine("Escolha o número:");
+                            m2[1, 1] = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("[] []");
+                Console.WriteLine("[] []");
+                    Console.WriteLine("[x] []");
+                        Console.WriteLine("Escolha o número:");
+                            m2[2, 0] = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("[] []");
+                Console.WriteLine("[] []");
+                    Console.WriteLine("[] [x]");
+                        Console.WriteLine("Escolha o número:");
+                            m2[2, 1] = int.Parse(Console.ReadLine());
 
             #endregion
 
             #region calculos 
 
-            // mRes[0, 0] = m1[0, 0] * m2[0, 0] + m1[0, 1] * m2[1,0] + m1[0,2] 
+            mRes[0, 0] = m1[0, 0] * m2[0, 0] + m1[0, 1] * m2[1, 0] + m1[0, 2] * m2[2, 0];
+            mRes[0, 1] = m1[0, 0] * m2[0, 1] + m1[0, 1] * m2[1, 1] + m1[0, 2] * m2[2, 1];
+            mRes[1, 0] = m1[1, 0] * m2[0, 0] + m1[1, 1] * m2[1, 0] + m1[1, 2] * m2[2, 0];
+            mRes[1, 1] = m1[1, 0] * m2[0, 1] + m1[1, 1] * m2[1, 1] + m1[1, 2] * m2[2, 1];
+
+            // aqui eu operei a matriz 1 pela matriz 2, para dar o resultado da matriz final
+            #endregion
+
+            #region resultado
 
             #endregion
 
